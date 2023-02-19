@@ -1,0 +1,25 @@
+{
+  "name": "system_calls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "commonjs",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuqayyahSara/System_calls.git"
+  },
+  "keywords": [],
+  "author": "Ruqayyah Sara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuqayyahSara/System_calls/issues"
+  },
+  "homepage": "https://github.com/RuqayyahSara/System_calls#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

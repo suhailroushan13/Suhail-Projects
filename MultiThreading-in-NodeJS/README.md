@@ -1,1 +1,5 @@
-# Suhail-Projects
+# MultiThreading-JavaScript
+
+All the large and heavy applications built use Multithreading for scalability. Even though JS is single-threaded, Multithreading can be achieved using <b>*Clusters*</b> in Node JS. It allows the easy creation of child processes that all share same server port. We also use the <b>*worker_threads*</b> module instead, which allows running multiple application threads within a single Node.js instance. The worker processes are spawned using the *child_process.fork()* method, so that they can communicate with the parent via IPC and pass server handles, to achieve multithreading. 
+
+The number of worker threads that can be created depends on the number of cores available on the host machine. Each worker thread can only use one core at a time, so using multiple worker threads can enable your application to utilize multiple cores, potentially improving its performance. Hence this is how multithreading is achieved and can be used in large-scaled complex heavyweight applications for scalability. 

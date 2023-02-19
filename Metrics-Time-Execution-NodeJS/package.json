@@ -1,0 +1,24 @@
+{
+  "name": "cpu_metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type":"module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuqayyahSara/CPU_Metrics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuqayyahSara/CPU_Metrics/issues"
+  },
+  "homepage": "https://github.com/RuqayyahSara/CPU_Metrics#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
